@@ -22,7 +22,7 @@ $(document).ready(function () {
 
     var numbers = [number1, number2, number3, number4, number5, number6, number7, number8, number9, number10];
     var right = 0;
-    var wrong = 0;
+
 
     if (number1 === input.correct) {
       right++
@@ -66,8 +66,7 @@ $(document).ready(function () {
     }
     if (percentage < 50) {
       remark = "Poor Performance, kindly re-do the test"
-      document.getElementById('result').innerHTML=+remark+
     }
-
-  }
+    document.getElementById('result').innerHTML = +remark;
   });
+});

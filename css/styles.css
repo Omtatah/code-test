@@ -1,10 +1,33 @@
-button{
-    background-color: aqua;
-height: 100px;
-}
-a{
-    background-color: aqua;
-}
-h1{
+
+
+
+h1 {
     color: red;
 }
+
+body {
+    background-image: url("../images/developer-4027337_1920.png")
+}
+
+.texty {
+    background-color: beige
+}
+button {
+    margin-left: 300px;
+    font-family: monospace;
+    border-radius: 40px;
+    font-size: 14px;
+    text-align: center;
+    width: 30%;
+    height: 40%;
+    padding: 10px;
+    border: 1px gray solid;
+    background-color: #008CBA; /* Green */
+};
+button:hover{
+    font-family:cursive;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #4CAF50; /* Green */
+    color: white;
+};
