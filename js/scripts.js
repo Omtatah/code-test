@@ -19,6 +19,14 @@ $(document).ready(function(){
     var number8 = $(input[name=answer8]:checked).val();
     var number9 = $(input[name=answer9]:checked).val();
     var number10 = $(input[name=answer10]:checked).val();
+
+    var numbers = [number1, number2, number3, number4, number5, number6, number7, number8, number9, number10]
+    
+    var right = 0
+
+    if(numbers == .correct ) {
+      
+    }
   })
 })
 
