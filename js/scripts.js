@@ -58,8 +58,14 @@ $(document).ready(function () {
     
     var percentage = right/10*100
   
-    if (percentage >= 79){
-      remark
+    if (percentage > 79){
+      remark= "Excellent Perfomance"
+    }
+    if(percentage > 49 && percentage < 80){
+      remark= "Fairly Passed"
+    }
+    if(percentage < 50){
+      remark= "Poor Performance, kindly re-do the test"
     }
 
   }
