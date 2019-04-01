@@ -66,6 +66,7 @@ $(document).ready(function () {
     }
     if (percentage < 50) {
       remark = "Poor Performance, kindly re-do the test"
+      document.getElementById('result').innerHTML=+remark+
     }
 
   }
